@@ -14,8 +14,7 @@
 
     <!-- Products grid + Sidebar with filters -->
     <section class="container">
-        <div class="row">
-
+        <div class="row align-items-start">
             <!-- Filter sidebar that turns into offcanvas on screens < 992px wide (lg breakpoint) -->
             <aside class="col-lg-3">
                 @partials('goods.aside')
@@ -24,14 +23,15 @@
             <!-- Product grid -->
             <div class="col-lg-9">
                 @partials('goods.grid')
+
+                {{-- 드래그 하여 상품 올리기 --}}
+                @livewire('shop-product-upload-drag')
+
             </div>
         </div>
     </section>
 
-    {{-- 드래그 하여 상품 올리기 --}}
-    <section class="container">
-        @livewire('shop-product-upload-drag')
-    </section>
+
 
     @partials('instagram_feed')
 

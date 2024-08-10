@@ -1,7 +1,3 @@
-
-
-
-
     {{-- 상품 목록을 출력합니다. --}}
     @livewire('shop-goods-list',[
 
@@ -9,7 +5,7 @@
     ])
 
 
-
+{{--
     <div class="row gy-4 gy-md-5 pb-4 pb-md-5">
 
       <!-- Item -->
@@ -502,4 +498,4 @@
     <button type="button" class="btn btn-lg btn-outline-secondary w-100">
       Show more
       <i class="ci-chevron-down fs-xl ms-2 me-n1"></i>
-    </button>
+    </button> --}}

@@ -42,6 +42,12 @@ return [
      'name'=>"hyper_saas",
      'description'=>"hyper_saas"
   ]
+  ,
+   'docs1'=>[
+     'active'=>"0",
+     'name'=>"docs1",
+     'description'=>"docs1"
+  ]
 
 ];
 

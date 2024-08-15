@@ -17,7 +17,14 @@
 
                             {{$slot}}
 
+
+
                             <ul class="sidebar-nav">
+
+                                @includeIf('theme::admin.sidebar.sidemenu', [
+                                    'rows' => menuLoad("jiny-admin.json")['items']
+                                ])
+
                                 <li class="sidebar-header">
                                     Admin
                                 </li>

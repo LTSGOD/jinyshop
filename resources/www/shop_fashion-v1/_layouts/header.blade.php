@@ -1,5 +1,5 @@
 <!-- Shopping cart offcanvas -->
-<div class="offcanvas offcanvas-end pb-sm-2 px-sm-2" id="shoppingCart" tabindex="-1" aria-labelledby="shoppingCartLabel" style="width: 500px">
+{{-- <div class="offcanvas offcanvas-end pb-sm-2 px-sm-2" id="shoppingCart" tabindex="-1" aria-labelledby="shoppingCartLabel" style="width: 500px">
 
   <!-- Header -->
   <div class="offcanvas-header flex-column align-items-start py-3 pt-lg-4">
@@ -104,7 +104,8 @@
       <a class="btn btn-lg btn-dark w-100" href="#!">Checkout</a>
     </div>
   </div>
-</div>
+</div> --}}
+@livewire('CartOffcanvas')
 
 <!-- Search offcanvas -->
 <div class="offcanvas offcanvas-top" id="searchBox" data-bs-backdrop="static" tabindex="-1">

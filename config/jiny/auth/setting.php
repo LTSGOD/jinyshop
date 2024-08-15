@@ -33,7 +33,7 @@ return [
 	'regist'=>[
 		'enable'=>"1",
 		'mail'=>"1",
-		'verified'=>"1"
+		'verified'=>"0"
     ],
     'verified' => [
         'view' => "jinyauth::verified.verified"

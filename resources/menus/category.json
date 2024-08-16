@@ -1,0 +1,74 @@
+{
+    "items": [
+        {
+            "title": "Woman",
+            "items": [
+                {
+                    "title": "Clothing",
+                    "updated_at": "2024-08-15 10:57:14",
+                    "items": [
+                        {
+                            "title": "Shirts & Tops"
+                        },
+                        {
+                            "title": "Coats & Outerwear"
+                        },
+                        {
+                            "title": "Underwear"
+                        }
+                    ]
+                },
+                {
+                    "title": "Shoes",
+                    "items": []
+                },
+                {
+                    "title": "Accessories",
+                    "items": []
+                },
+                {
+                    "title": "Specialty Sizes",
+                    "items": []
+                }
+            ],
+            "blade": "category.woman",
+            "updated_at": "2024-08-15 16:30:37"
+        },
+        {
+            "title": "Man",
+            "blade": "category.man",
+            "items": [
+                {
+                    "title": "Clothing"
+                },
+                {
+                    "title": "Shoes"
+                },
+                {
+                    "title": "Accessories"
+                },
+                {
+                    "title": "Specialty Shops"
+                }
+            ]
+        },
+        {
+            "title": "Kid",
+            "blade": "category.kid",
+            "items": [
+                {
+                    "title": "Boys"
+                },
+                {
+                    "title": "Girls"
+                },
+                {
+                    "title": "Accessories"
+                },
+                {
+                    "title": "Shop by Age"
+                }
+            ]
+        }
+    ]
+}

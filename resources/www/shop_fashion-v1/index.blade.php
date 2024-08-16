@@ -1,6 +1,8 @@
 <x-www-layout>
     <main class="content-wrapper">
 
+
+
       {{-- 사이트 브렌드 : {{siteInfo('brand')}} --}}
 
       <!-- Hero slider -->
